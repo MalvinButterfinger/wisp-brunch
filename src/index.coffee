@@ -1,4 +1,4 @@
-transpile = require('wisp/lib/engine/node').transpile
+transpile = require('wisp/compiler').compile
 
 
 module.exports = class WispCompiler
